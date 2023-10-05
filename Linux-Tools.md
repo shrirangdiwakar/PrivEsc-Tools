@@ -20,3 +20,9 @@ There are many scripts that you can execute on a linux machine which automatical
     ./lse.sh -l1 # shows interesting information that should help you to privesc
     ./lse.sh -l2 # dump all the information it gathers about the system
     ```
+
+- [LinEnum - Scripted Local Linux Enumeration & Privilege Escalation Checks](https://github.com/rebootuser/LinEnum)
+    
+    ```powershell
+    ./LinEnum.sh -s -k keyword -r report -e /tmp/ -t
+    ```
